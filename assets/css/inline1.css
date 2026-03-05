@@ -1,0 +1,16 @@
+          #header .banner {
+                  background-image: url("http://tamisemi.go.tz/storage/app/uploads/public/5a5/b08/b98/thumb_949_1180x132_0_0_crop.png");
+    }          
+          
+    body{
+        background-color : #ffffff;
+    }
+    .top-bar-menu{
+        background-color : #2980b9;
+    }
+    #main-menu{
+        background-color : #3498db;
+    }
+       .dropdown-menu{
+        background-color : #3498db; 
+    }

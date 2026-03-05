@@ -1,0 +1,395 @@
+/* --------------------------------------------------------	*/
+/*	Twitter Bootstrap */
+/*	Responsive media queries */
+/*	freshdesignweb.com */
+/* --------------------------------------------------------	*/
+
+@import url("bootstrap.min.css");
+@import url("bootstrap-responsive.min.css");
+
+/* --------------------------------------------------------	*/
+/*	Base */
+/* --------------------------------------------------------	*/
+
+
+
+blockquote {        
+  color:#83adff;
+  margin:15px 0px;
+  border-left:5px solid #fda056; 
+}
+
+
+/* --------------------------------------------------------	*/
+/*	Main Classes */
+/* --------------------------------------------------------	*/
+
+.list-a li {
+  list-style:none;
+  padding-left:30px;
+  margin-bottom:15px;
+  background: url(../img/arrow4.png) left center no-repeat;
+}
+
+.list-b li {
+  list-style:none;
+  margin-bottom:10px;
+}
+
+.list-b i {
+  color:#fb8865;
+  padding-right:4px;
+}
+
+.list-c i {
+  font-size:10px;
+  padding-right:4px;
+}
+
+.list-c li {
+  list-style:none;
+  margin-bottom:4px;
+}
+
+.list-c a {
+  color:#83adff;
+  text-decoration:none;
+}
+
+.list-c a:hover {
+  color:#fff;
+  text-decoration:none;
+}
+  
+.btn {
+  color:#fff;
+  background:#fb8865;
+  line-height:48px;
+  padding:0px 22px;
+  text-shadow:none;
+  border-radius:2px;
+  -webkit-box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
+  box-shadow:rgba(0, 0, 0, 0) 0 0 0 !important;
+  border:0px;
+  margin-bottom:8px;
+}
+.btn h3{
+	color:#FFF;
+}
+.btn:hover {
+  color:#fff;
+  background:#fda056;
+}
+
+.btn-blue {
+  background:#328255;
+} 
+.btn-blue a{
+  color:white;
+   text-decoration:none;
+} 
+
+.btn-blue:hover {
+  background:#83adff;
+} 
+
+.btn-gray {
+  background:#3b3b3b;
+} 
+
+.btn-gray:hover {
+  background:#fda056;
+} 
+
+/* --------------------------------------------------------	*/
+/*  Accordion  */
+/* --------------------------------------------------------	*/
+
+.accordion-group {
+  border-radius:0px !important;
+  border:0px;
+  margin-bottom:1px !important;
+}
+ 
+.accordion-heading {
+  color:#393838;
+  background:#e9edeb; 
+}
+.accordion-heading a{
+  color:#393838;
+}
+.accordion-inner {
+  color:#393838;
+  background:#f9f9f9;
+  border:0px;
+  padding:30px 20px !important;     
+}
+
+.accordion-toggle {
+  padding:20px !important;
+}
+
+/* --------------------------------------------------------	*/
+/*  Tabs  */
+/* --------------------------------------------------------	*/
+
+.nav-tabs {
+  border:0px;
+  margin-bottom:0px;
+}
+
+.tab-content h3 {
+  padding-bottom:0px;
+}
+
+.nav-tabs li a {
+  border-radius:0px;
+  border:0px;
+  color:#3b3b3b;
+  background:#e9edeb;
+  padding:20px;
+}
+
+.nav-tabs li a:hover {
+  background:#fb8865;
+}
+
+.tab-content {
+  background:#f9f9f9;
+  padding: 0px 20px;
+  padding-bottom:10px;   
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  background-color:#f9f9f9;
+  border-color:#e9edeb #e9edeb  transparent;
+  border-style:solid;
+  color:#3b3b3b;
+}
+     
+/* --------------------------------------------------------	*/
+/*  Alerts  */
+/* --------------------------------------------------------	*/
+       
+.alert {
+  margin-bottom:9px;
+  padding:20px 40px 20px 20px;
+  color:#789ab9;
+  background:#e4f2ff;
+  border-radius:0px;
+  border:0px !important;
+  text-shadow:none !important;
+}
+  
+.alert-error {
+  color:#fff;
+  background:#ff5a5a;
+}
+
+.alert-info {
+  color:#7f7e00;
+  background:#dfde88;
+}
+
+.alert-success {
+  color:#fff;
+  background:#6ac663;
+}
+
+/* --------------------------------------------------------	*/
+/*  Icons  */
+/* --------------------------------------------------------	*/
+
+.icons-s1 {
+  font-size:34px;
+}
+
+.icons-s2 {
+  font-size:28px;
+}
+
+.icons-s3 {
+  font-size:22px;
+}
+
+.icons-s4 {
+  font-size:16px;
+}
+
+/* --------------------------------------------------------	*/
+/*  Tables  */
+/* --------------------------------------------------------	*/
+
+#map {
+  position:relative;
+  width:100%;
+  height:270px;
+  padding:0px;
+  border:0px;
+}
+
+/* --------------------------------------------------------	*/
+/*  Side Bar  */
+/* --------------------------------------------------------	*/
+  
+  /* --------------------------------------------------------	*/
+  /*	Gallery Filter */
+  /* --------------------------------------------------------	*/
+
+  #portfolio-filter{
+    margin:0px;
+    overflow:hidden;
+  }
+    
+  #portfolio-filter li {
+    list-style:none;
+    float:left;
+    margin-right:10px;
+    margin-top:5px;
+    padding:12px 0px;
+  }
+    
+  #portfolio-filter li a {
+    padding:12px 15px;
+    margin:0px;
+    border:0px;
+  	color:#fff;
+	background: #328255;
+  }
+ 
+  #portfolio-filter li:hover a {
+    color:#fff;
+    background: #83adff;
+    text-decoration:none;
+  }
+    
+  #portfolio-filter li.active a {
+    color:#fff;
+    background: #328255;
+  }
+
+	/* --------------------------------------------------------	*/
+	/*	Gallery - Isotype (filtering tags) */
+	/* --------------------------------------------------------	*/
+
+	.isotope-item {
+	  z-index: 2;
+	}
+
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}   
+
+	/* Isotope CSS3 transitions */    
+	.isotope,	.isotope .isotope-item {
+	  -webkit-transition-duration: 0.4s;
+		 -moz-transition-duration: 0.4s;
+		  -ms-transition-duration: 0.4s;
+		   -o-transition-duration: 0.4s;
+			  transition-duration: 0.4s;
+	}
+
+	.isotope {
+	  -webkit-transition-property: height, width;
+		 -moz-transition-property: height, width;
+		  -ms-transition-property: height, width;
+		   -o-transition-property: height, width;
+			  transition-property: height, width;
+	}
+
+	.isotope .isotope-item {
+	  -webkit-transition-property: -webkit-transform, opacity;
+		 -moz-transition-property:    -moz-transform, opacity;
+		  -ms-transition-property:     -ms-transform, opacity;
+		   -o-transition-property:         top, left, opacity;
+			  transition-property:         transform, opacity;
+	} 
+
+	/* disabling Isotope CSS3 transitions */
+	.isotope.no-transition,
+	.isotope.no-transition .isotope-item,
+	.isotope .isotope-item.no-transition {
+	  -webkit-transition-duration: 0s;
+		 -moz-transition-duration: 0s;
+		  -ms-transition-duration: 0s;
+		   -o-transition-duration: 0s;
+			  transition-duration: 0s;
+	}                                      
+/*----------------------------------------------------------*/
+/* breadcrumbs */
+#titlebar{background:#f9f9f9;}
+#breadcrumbs ul{float:right;font-size:13px;margin-top:27px;font-weight:500; padding-left:5px; padding-right:15px;}
+#breadcrumbs ul li{display:inline-block;color:#999;margin:0 0 0 5px}
+#breadcrumbs ul li:after{content:"";font-family:"FontAwesome";font-size:12px;color:#ccc;margin:0 0 0 9px}
+#breadcrumbs ul li:last-child:after,#breadcrumbs ul li:first-child:after{content:"";margin:0}
+#breadcrumbs ul li:last-child a,#breadcrumbs ul li a{color:#888;font-weight:600}
+#breadcrumbs ul li a:hover{color:#a0a0a0}#breadcrumbs ul li:first-child{padding-right:0;margin-left:0}
+#breadcrumbs ul li:first-child,#breadcrumbs ul li:last-child{color:#999;background:0}
+#breadcrumbs ul li:last-child{padding:0;background:0}
+
+#resources{
+  overflow-y: scroll
+  
+  
+  
+ 
+}
+#rs {
+
+
+}
+
+#rdetail:{
+width:90px;
+float:left;
+
+}
+#pb{
+background-color:#e3e3e3;
+padding:5px;
+border-radius: 10px 10px 0 0;
+float:left;
+}
+
+#pbdetails{
+padding:3px;
+float:left;
+background-color:white;
+border-radius:10px 10px 10px 10px;
+}
+#pbthumb{
+padding:3px;
+float:left;
+background-color:white;
+border-radius: 10px;
+
+}
+#pbauthor{
+clear:both;
+}
+#side{
+    background: #eee;
+    margin: 0 0 20px 0;
+}
+#side h3 {
+    display: block;
+    padding: 9px 17px;
+    font: 700 93.7%/100% Arial, Helvetica, sans-serif;
+    background: #517253 url(../img/white-arrow.png) no-repeat 0 5px;
+    color: #fff;
+    text-decoration: none;
+	font-size:20px;
+}
+
+#side ul {
+    list-style: none;
+    padding: 10px 0;
+}
+#side li {
+    color: #333;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #fbf6f6;
+    padding: 10px;
+    font-family: Georgia, Serif;
+}

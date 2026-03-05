@@ -1,0 +1,16 @@
+
+        span.current {
+            position: relative;
+            top: -15px;
+            color: #000;
+        }
+        .nice-select {
+            margin-top: -3px;
+            padding-left: 10px;
+            padding-right: 24px;
+            height: 24px;
+        }
+        .visitorcounter a{
+            color:#fff;
+        }
+    
